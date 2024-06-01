@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div:hover{
+    background-color: aquamarine;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    
+}
